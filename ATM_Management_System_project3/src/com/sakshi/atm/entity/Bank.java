@@ -15,9 +15,9 @@ public class Bank {
     @Column(length=11)
     private String ifscCode;
     
-  
+  // this is simpal 
     @Column(length=11)
-    private String branchCode;
+    private String branchCote;
     
     
     @Column(length=20)
