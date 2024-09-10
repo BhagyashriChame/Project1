@@ -26,4 +26,6 @@ public class Bank {
     @OneToMany(mappedBy = "bank", cascade = CascadeType.ALL)
     private List<Customer> customer = new ArrayList<>();
     
+    System.out.println("hi hello");
+
     }
